@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:musicapp/core/theme/theme.dart';
+import 'package:musicapp/features/auth/view/pages/login_page.dart';
 import 'package:musicapp/features/auth/view/pages/signup_page.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: Apptheme.darkThemeMode,
-      home: SignupPage(),
+      home: const LoginPage(),
     );
   }
 }
